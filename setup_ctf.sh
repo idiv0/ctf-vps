@@ -30,3 +30,10 @@ mkdir -p ~/.vim/bundle
 cd ~/.vim/bundle/ && git clone --recursive https://github.com/davidhalter/jedi-vim.git
 # End of Vim config
 
+
+# Install CTF tools
+# All Python based CTF tools are installed into a 'ctf' virtual environment.
+mkvirtualenv --system-site-packages ctf
+
+
+
